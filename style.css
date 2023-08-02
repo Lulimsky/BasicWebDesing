@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+    header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+
+    main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    }
+
+    .box {
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    }
+
+    .box img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    }
+
+    .box p {
+    text-align: center;
+    }
+
+    .box:nth-child(odd) {
+    text-align: left;
+    }
+
+    .box:nth-child(even) {
+    text-align: right;
+    }
+
+    .box:last-child {
+    width: 100%;
+    text-align: center;
+    }
+
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    }
